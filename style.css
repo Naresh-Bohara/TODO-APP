@@ -202,3 +202,20 @@ footer {
     font-size: 16px;
     color: var(--footer-color);
 }
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .task-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 8px;
+        margin-top: 10px; /* Add space between buttons and task item */
+    }
+
+    .task-list li {
+        flex-direction: column; /* Stack task item content vertically */
+        align-items: flex-start; /* Align task content to the left */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
