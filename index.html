@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="A simple Todo app for managing tasks.">
+    <meta name="author" content="Naresh Bohara">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="outside">
+        <div class="container">
+            <header>
+                <div class="logo-box">
+                    <img src="./images/todologo.jpg" class="logo" alt="Logo">
+                </div>
+                <h1 class="heading">
+                    <span class="heading-main">TODO</span>
+                </h1>
+                <h2 class="heading-sub">Stay Organized, Stay Productive!</h2>
+            </header>
+            <main>
+                <section class="task-input">
+                    <input type="text" placeholder="Add your new task here..." class="task-field">
+                    <button class="add-btn">Add Task</button>
+                </section>
+                <section class="task-list">
+                    <ul class="task-list">
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Complete assignment</span>
+                            </label>
+                            <div class="task-buttons">
+                                <button class="edit-btn">Edit</button>
+                                <button class="del-btn">Delete</button>
+                            </div>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Read story book</span>
+                            </label>
+                            <div class="task-buttons">
+                                <button class="edit-btn">Edit</button>
+                                <button class="del-btn">Delete</button>
+                            </div>
+                        </li>
+                        <li>
+                            <label>
+                                <input type="checkbox">
+                                <span>Learn Java programming</span>
+                            </label>
+                            <div class="task-buttons">
+                                <button class="edit-btn">Edit</button>
+                                <button class="del-btn">Delete</button>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <section class="task-summary">
+                    <p class="total">Total: <span>3</span></p>
+                    <p class="completed">Completed: <span>0</span></p>
+                    <p class="remaining">Remaining: <span>3</span></p>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; 2025 Naresh Bohara. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
