@@ -1,8 +1,8 @@
 :root {
     --primary-bg-color: rgba(173, 216, 230, 0.705);
     --secondary-bg-color: rgba(0, 0, 205, 0.317);
-    --primary-btn-bg-color: #4178df;
-    --btn-hover-bg-color: rgba(0, 0, 255, 0.605);
+    --primary-btn-bg-color: #3087ce;
+    --btn-hover-bg-color: #1586e3;
     --border-radius: 8px;
     --task-bg-color: rgba(210, 210, 210, 0.354);
     --text-color: #333;
@@ -57,6 +57,14 @@ body {
     color: var(--heading-color);
 }
 
+.heading-main-first{
+    color: #7db5e0 ;
+}
+
+.heading-main-last{
+    color: #75d0de;
+}
+
 .heading-sub {
     font-size: 18px;
     font-weight: 600;
@@ -92,6 +100,7 @@ body {
     color: #fff;
     margin-left: 15px;
     cursor: pointer;
+    font-weight: bold;
     border-radius: var(--border-radius);
 }
 
